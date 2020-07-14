@@ -42,11 +42,12 @@ body > * {
 }
 
 .img {
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   position: relative;
   display: block;
   cursor: pointer;
   border-radius: 100%;
-  -webkit-box-shadow: inset 0px 0px 100px 50px rgba(0, 0, 0, 0.9);
+  box-shadow: inset 0px 0px 99px 69px rgba(0,0,0,1);
+  border: 10px solid #000000;
 }

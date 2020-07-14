@@ -1,7 +1,7 @@
 'use strict';
 
-var width = 200,
-    height = 200;
+var width = 300,
+    height = 300;
 
 var log = console.log.bind(console);
 
@@ -28,3 +28,4 @@ function handleMove(event) {
 
 containerEl.addEventListener('mousemove', handleMove);
 containerEl.addEventListener("touchmove", handleMove, true);
+document.body.style.cursor = 'none';
